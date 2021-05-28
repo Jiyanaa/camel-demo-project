@@ -1,0 +1,13 @@
+ spring:
+  application:
+   name: consule-example
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+#        data-key: file
+        enabled: true
+#        format: yaml
+        prefix: config
+#        defaultContext: spring-cloud-gateway-demo
